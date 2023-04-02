@@ -24,7 +24,7 @@ app.post("/sendFakeMail", (req, res) => {
 
   let mailTransporter = nodemailer.createTransport({
     host: "host_address",
-    port: PORT_NUMBER,
+    port: 3000,
     auth: {
       user: "username@domain.com",
       pass: "Password",
